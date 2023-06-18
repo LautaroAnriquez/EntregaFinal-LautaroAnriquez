@@ -9,3 +9,14 @@ body{
     gap: 1rem;
     padding-top: 3rem;
 }
+
+#resultado{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-top: 3rem;
+}
+
+h3{
+    padding-top: 3rem;
+}
