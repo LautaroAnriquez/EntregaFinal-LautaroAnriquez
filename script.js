@@ -2,12 +2,12 @@
 class Valor{
     constructor(id,opcion,casa){
         this.id = id,
-        this.opcion = opcion
+        this.opcion = opcion,
         this.casa = casa
     }
 }
 
-const valores1 = new Valor (1, "Valentia y fuerza", "Gyffindor")
+const valores1 = new Valor (1, "Valentia y fuerza", "Gryffindor")
 const valores2 = new Valor (2, "Justicia y lealtad", "Hufflepuff")
 const valores3 = new Valor (3, "Sabiduria y voluntad", "Ravenclaw")
 const valores4 = new Valor (4, "Ambicion y astucia", "Slytherin")
@@ -30,11 +30,12 @@ VALORES.forEach((valor => {
 }))
 
 //Funcion para mostrar el resultado
-function verResultado(){
+function verResultado(opcion){
   const resultado = document.getElementById("resultado")
   VALORES.forEach((Resultado => {
-    let divResultado = document.createElement ("divR")
-    divResultado.innerHTML =
+    if (Resultado.casa == opcion){
+      let divResultado = document.createElement ("divR")
+      divResultado.innerHTML =
           `<div class="card" style="width: 18rem;">
           <div class="card-body">
             <h6> Encajas perfectamente en la casa:</h6>
@@ -42,6 +43,7 @@ function verResultado(){
           </div>
         </div>`
       resultado.append(divResultado)
+    }
   }))
 }
   
