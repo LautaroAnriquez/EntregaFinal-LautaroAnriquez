@@ -34,6 +34,7 @@ function verResultado(opcion){
   const resultado = document.getElementById("resultado")
   VALORES.forEach((Resultado => {
     if (Resultado.casa == opcion){
+      localStorage.setItem("resultadoCasa", opcion)
       let divResultado = document.createElement ("divR")
       divResultado.innerHTML =
           `<div class="card" style="width: 18rem;">
@@ -46,7 +47,13 @@ function verResultado(opcion){
     }
   }))
 }
-  
+
+let resultadoLS = localStorage.getItem("resultadoCasa")
+
+
+
+
+
 
 
 
