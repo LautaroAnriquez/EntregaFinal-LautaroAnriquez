@@ -1,0 +1,33 @@
+[
+    {
+       "id": 1,
+       "opcion": "Valentía y fuerza",
+       "casa": "Gryffindor",
+       "descripcion": "Un buen miembro de Gryffindor tiene gran osadía, temple y caballerosidad. Son capaces de todo por defender en lo que creen y nunca se dan por vencidos. También son capaces de romper las reglas si es necesario y les encantan los retos, cuanto más difíciles, mejor. Se atreven a lo que la mayoría no se atreve. En cada obstáculo ven una oportunidad para demostrar quienes son realmente.",
+       "logo":"gryffindor.png"
+    },
+    
+    { 
+        "id": 2,
+        "opcion": "Justicia y lealtad",
+        "casa": "Hufflepuff",
+        "descripcion": "Los hufflepuff son buenas personas y suelen caer bien a todo el mundo. Son pacientes, tolerantes y siempre harán todo de forma honrada, sin hacer trampas y respetando las reglas.",
+        "logo":"hufflepuff.png"
+     },
+
+     { 
+        "id": 3,
+        "opcion": "Sabiduría y voluntad",
+        "casa": "Ravenclaw",
+        "descripcion": "Los miembros de esta casa se caracterizan por su ingenio, aprendizaje, sabiduríay voluntad. El símbolo animal emblemático es el águila, y el azul y el bronce son sus colores.",
+        "logo":"ravenclaw.png"
+     },
+
+     { 
+        "id": 4,
+        "opcion": "Ambición y astucia",
+        "casa": "Slytherin",
+        "descripcion": "Los Slyhterin son personas que utilizan cualquier medio para lograr sus fines, poseen determinación, ambición, un cierto desdén por las normas, astucia, aspiraciones de grandeza y hambre de poder. Tienden a dudar antes de actuar, con el fin de sopesar todos los posibles resultados antes de decidir exactamente lo que se debe hacer y, una vez que lo averiguan, lo consiguen, dándole igual los medios para lograrlo.",
+        "logo":"slytherin.png"
+     }
+]
