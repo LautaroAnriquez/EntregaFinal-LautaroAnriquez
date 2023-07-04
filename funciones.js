@@ -6,7 +6,7 @@ function renderizarOpciones(){
           `<div class="card" style="width: 18rem;">
           <div class="card-body">
             <h4 class="card-title">${valor.opcion}</h4>
-            <input type="button" class="btn btn-primary" value="Me representan" onclick="verResultado('${valor.casa}')" >
+            <input type="button" class="boton" value="Me representan" onclick="verResultado('${valor.casa}')" >
           </div>
         </div>`
       cardValores.append(divCard)
